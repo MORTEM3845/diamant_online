@@ -1,0 +1,15 @@
+node_modules/
+dist/
+.wrangler/
+.env*
+.dev.vars*
+!.env.example
+coverage/
+test-results/
+playwright-report/
+references/*.pdf
+references/*.png
+references/*-extracted.txt
+.DS_Store
+*.log
+.openai/

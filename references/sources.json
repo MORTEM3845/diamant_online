@@ -1,0 +1,34 @@
+[
+  {
+    "file": "diamant-current-rules-en.pdf",
+    "source": "https://iellogames.com/wp-content/uploads/2016/10/Diamant_Rulebook_EN_V1_Light.pdf",
+    "bytes": 9815026,
+    "sha256": "ac855646c15bcb86b7b6f4cbebaa417857d8a54ef388477fedbcdf623f9a1d84",
+    "downloaded": "2026-11-13",
+    "purpose": "private research reference; publisher copyright retained"
+  },
+  {
+    "file": "diamant-current-rules-ru.pdf",
+    "source": "https://hobbyworld.ru/download/rules/diamant-rules.pdf",
+    "bytes": 5929167,
+    "sha256": "0ebb0601bc2110774b98b2f0c6f4717a9abe4f58c4a51640c44141de7555f07e",
+    "downloaded": "2026-11-13",
+    "purpose": "private research reference; publisher copyright retained"
+  },
+  {
+    "file": "diamant-2016-rules-fr.pdf",
+    "source": "https://iello.fr/wp-content/uploads/2016/10/DIAMANT_rulebook_FR_light.pdf",
+    "bytes": 4484473,
+    "sha256": "3fee6f18952ef15ed72d600435ed3bd6de696190454e0d75136bbba2c04d1040",
+    "downloaded": "2026-11-13",
+    "purpose": "private research reference; publisher copyright retained"
+  },
+  {
+    "file": "diamant-2021-rules-fr.pdf",
+    "source": "https://iello.fr/wp-content/uploads/2016/10/DIAMANT_rulebook_FR_light-1.pdf",
+    "bytes": 3352267,
+    "sha256": "5e310c32c3198be399873cebe239b4057decc06d774aa82bd6b07c04e71a8507",
+    "downloaded": "2026-11-13",
+    "purpose": "private research reference; publisher copyright retained"
+  }
+]

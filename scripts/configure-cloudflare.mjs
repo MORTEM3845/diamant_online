@@ -1,0 +1,11 @@
+import { readFile, writeFile } from 'node:fs/promises';
+const id = process.env.CLOUDFLARE_D1_DATABASE_ID;
+const account = process.env.CLOUDFLARE_ACCOUNT_ID;
+if (!/^[a-f\d-]{36}$/i.test(id || '') || /^0{8}-/.test(id || '')) throw new Error('Set CLOUDFLARE_D1_DATABASE_ID in repository variables.');
+if (!/^[a-f\d]{32}$/i.test(account || '')) throw new Error('Set CLOUDFLARE_ACCOUNT_ID in repository variables.');
+if (!process.env.CLOUDFLARE_API_TOKEN) throw new Error('Set CLOUDFLARE_API_TOKEN in repository secrets.');
+const config = JSON.parse(await readFile('wrangler.jsonc', 'utf8'));
+config.account_id = account;
+config.d1_databases[0].database_id = id;
+await writeFile('wrangler.jsonc', `${JSON.stringify(config, null, 2)}\n`);
+console.log('Deployment configuration prepared.');
